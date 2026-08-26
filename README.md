@@ -25,3 +25,10 @@ AICraft/
 ├── 代码生成车间/
 ├── 数据分析车间/
 └── _config/                     # 全局规则与版本日志
+
+## 🚀 快速开始
+
+1. **克隆仓库**
+   ```bash
+   git clone https://github.com/lds250250/Lcloudy_AICraft.git
+   cd Lcloudy_AICraft
