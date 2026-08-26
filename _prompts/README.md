@@ -59,3 +59,9 @@
 ---
 
 ## 🗂️ 文件结构总览（本目录）
+_prompts/
+├── README.md              # 总索引（已更新，移除 rebuild_loader.md）
+├── write_spec.md          # spec 编写器
+├── write_eval.md          # eval 编写器
+├── write_examples.md      # examples 编写器
+└── write_loader.md        # loader 编写器
