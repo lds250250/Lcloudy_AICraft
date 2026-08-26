@@ -15,6 +15,9 @@
 - 列表项保持统一缩进（2空格或4空格任选一种，全文一致）
 - 代码块标注语言类型（如 ```markdown、```bash）
 
+## 全局指令约定
+根目录 _prompts/ 下存放所有跨车间共享的系统级 AI 操作指令（如更新 loader、全局迁移等），命名须带 _global_ 或明确作用域（例：rebuild_loader.md 专用于 loader 更新）。
+
 ## 变更管理
 
 - 任何新增、修改、删除操作必须同步记录到 `_config/changelog.md`
