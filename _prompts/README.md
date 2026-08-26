@@ -1,6 +1,6 @@
 # `_prompts/` 目录说明 · 全局编写器工作台
 
-> 本目录存放所有用于**生成技能文件**的 AI 编写器（Writer）以及全局系统指令。所有编写器输出的 `spec.md` / `eval.md` / `examples.md` / `skill_loader.md` 均与「结构化重塑」技能保持统一文风。
+> 本目录存放所有用于**生成技能文件**的 AI 编写器（Writer）。所有编写器输出的 `spec.md` / `eval.md` / `examples.md` / `skill_loader.md` 均与「结构化重塑」技能保持统一文风。
 
 ---
 
@@ -8,7 +8,6 @@
 
 | 文件名 | 用途 | 依赖 |
 | :--- | :--- | :--- |
-| `rebuild_loader.md` | 全局指令：告诉 AI 如何更新 `skill_loader.md` 文件 | 无 |
 | `write_spec.md` | 生成 `spec.md`（技能说明书） | 只需技能名称和描述 |
 | `write_eval.md` | 生成 `eval.md`（质量验收标准） | 依赖 `spec.md` 的核心原则 |
 | `write_examples.md` | 生成 `examples.md`（优秀案例集） | 依赖 `spec.md` 和 `eval.md` 的实际内容 |
